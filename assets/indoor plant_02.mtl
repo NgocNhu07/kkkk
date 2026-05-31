@@ -22,9 +22,21 @@ Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
-illum 1
-map_Kd textures\indoor plant_2_NOR.jpg
-map_Bump  textures\\indoor plant_2_NOR.jpg
+illum 2
+map_Kd textures/indoor plant_2_NOR.jpg
+map_Bump textures/indoor plant_2_NOR.jpg
+
+newmtl IDP_stem
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures/indoor plant_2_NOR.jpg
+map_Bump textures/indoor plant_2_NOR.jpg
 
 newmtl IDP_leaves
 Ns 96.078431
@@ -48,37 +60,24 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures/indoor plant_2_COL.jpg
+map_Kd textures/indoor plant_2_NOR.jpg
 map_Bump textures/indoor plant_2_NOR.jpg
-map_Ks textures/indoor plant_2_COL.jpg
+map_Ks textures/indoor plant_2_NOR.jpg
 
-newmtl IDP_root
+newmtl IDP_Pot_indoor_plant_2_COL.jpg
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
-Ks 0.328250 0.328250 0.328250
+Ks 0.200000 0.200000 0.200000
 Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
 map_Kd textures/indoor plant_2_COL.jpg
-map_Bump textures/indoor plant_2_NOR.jpg
+map_Bump textures/indoor plant_2_COL.jpg
 map_Ks textures/indoor plant_2_COL.jpg
 
-newmtl IDP_root_indoor_plant_2_NOR.jpg
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.640000 0.640000 0.640000
-Ks 0.328250 0.328250 0.328250
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures/indoor plant_2_COL.jpg
-map_Bump textures/indoor plant_2_NOR.jpg
-map_Ks textures/indoor plant_2_COL.jpg
-
-newmtl Material.006
+newmtl IDP_ground_indoor_plant_2_NOR.jpg
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
@@ -86,5 +85,6 @@ Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
-illum 1
-map_Kd textures\p2.png
+illum 2
+map_Kd textures/indoor plant_2_NOR.jpg
+map_Bump textures/indoor plant_2_NOR.jpg
