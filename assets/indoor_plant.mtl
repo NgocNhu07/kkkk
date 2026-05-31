@@ -1,4 +1,4 @@
-# Blender MTL File: 'indoor plant_02.blend'
+# Blender MTL File: 'indoor_plant.blend'
 # Material Count: 7
 
 newmtl IDP_Pot
@@ -10,9 +10,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures/indoor plant_2_NOR.jpg
-map_Bump textures/indoor plant_2_NOR.jpg
-map_Ks textures/indoor plant_2_COL.jpg
+map_Kd indoor_plant_nor.jpg
+map_Bump indoor_plant_nor.jpg
+map_Ks indoor_plant_col.jpg
 
 newmtl IDP_ground
 Ns 96.078431
@@ -23,8 +23,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures/indoor plant_2_NOR.jpg
-map_Bump textures/indoor plant_2_NOR.jpg
+map_Kd indoor_plant_nor.jpg
+map_Bump indoor_plant_nor.jpg
 
 newmtl IDP_stem
 Ns 96.078431
@@ -35,8 +35,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures/indoor plant_2_NOR.jpg
-map_Bump textures/indoor plant_2_NOR.jpg
+map_Kd indoor_plant_nor.jpg
+map_Bump indoor_plant_nor.jpg
 
 newmtl IDP_leaves
 Ns 96.078431
@@ -47,9 +47,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures/indoor plant_2_COL.jpg
-map_Bump textures/indoor plant_2_NOR.jpg
-map_Ks textures/indoor plant_2_COL.jpg
+map_Kd indoor_plant_col.jpg
+map_Bump indoor_plant_nor.jpg
+map_Ks indoor_plant_col.jpg
 
 newmtl IDP_leaves_indoor_plant_2_NOR.jpg
 Ns 96.078431
@@ -60,9 +60,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures/indoor plant_2_NOR.jpg
-map_Bump textures/indoor plant_2_NOR.jpg
-map_Ks textures/indoor plant_2_NOR.jpg
+map_Kd indoor_plant_nor.jpg
+map_Bump indoor_plant_nor.jpg
+map_Ks indoor_plant_nor.jpg
 
 newmtl IDP_Pot_indoor_plant_2_COL.jpg
 Ns 96.078431
@@ -73,9 +73,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures/indoor plant_2_COL.jpg
-map_Bump textures/indoor plant_2_COL.jpg
-map_Ks textures/indoor plant_2_COL.jpg
+map_Kd indoor_plant_col.jpg
+map_Bump indoor_plant_col.jpg
+map_Ks indoor_plant_col.jpg
 
 newmtl IDP_ground_indoor_plant_2_NOR.jpg
 Ns 96.078431
@@ -86,5 +86,5 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures/indoor plant_2_NOR.jpg
-map_Bump textures/indoor plant_2_NOR.jpg
+map_Kd indoor_plant_nor.jpg
+map_Bump indoor_plant_nor.jpg
