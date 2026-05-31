@@ -3,52 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=no, minimum-scale=1.0, maximum-scale=1.0">
-    <title>WebAR Mô Hình 3D Con Ong - Chuẩn Màu Texture</title>
+    <title>WebAR Mô Hình 3D Con Ong </title>
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
-    
-    <script>
-      AFRAME.registerComponent('apply-bee-texture', {
-        init: function () {
-          var el = this.el;
-          
-        
-          var textureLoader = new THREE.TextureLoader();
-          var beeTexture = textureLoader.load('./assets/ongg.jpg');
-          
-         
-          beeTexture.flipY = false; 
-          
-          el.addEventListener('model-loaded', function () {
-            var model = el.getObject3D('mesh');
-            if (model) {
-              model.traverse(function (node) {
-                if (node.isMesh) {
-                 
-                  if (node.material.name === 'bee_wing') {
-                    node.material = new THREE.MeshBasicMaterial({
-                      color: 0xD0E0FF,
-                      transparent: true,
-                      opacity: 0.5,
-                      side: THREE.DoubleSide
-                    });
-                  } 
-                  
-                  else {
-                    node.material = new THREE.MeshBasicMaterial({
-                      map: beeTexture,
-                      color: 0xFFFFFF,
-                      side: THREE.DoubleSide
-                    });
-                  }
-                  node.material.needsUpdate = true;
-                }
-              });
-            }
-          });
-        }
-      });
-    </script>
   </head>
   <body style="margin: 0px; overflow: hidden;">
     
@@ -56,16 +13,18 @@
       
       <a-assets>
         <a-asset-item id="bee-obj" src="./assets/BEE.OBJ"></a-asset-item>
-        <img id="ong-texture" src="./assets/ongg.jpg">
+        <a-asset-item id="bee-mtl" src="./assets/BEE.MTL"></a-asset-item>
+        <img id="bee-texture" src="./assets/BEE.JPG">
       </a-assets>
       
       <a-marker preset="hiro">
         
         <a-obj-model 
           src="#bee-obj" 
-          apply-bee-texture
+          mtl="#bee-mtl" 
+          material="src: #bee-texture; minFilter: linear; magFilter: linear;"
           position="0 0 0" 
-          scale="250 250 250" 
+          scale="200 200 200" 
           rotation="-90 0 0">
         </a-obj-model>
 
